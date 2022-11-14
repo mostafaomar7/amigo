@@ -20,12 +20,15 @@
     animation: left-and-right 3s linear infinite;
     position: relative;
 }
-.home h1{
+.head h1{
     color: #FDF7FF;
     margin-top: 20px;
     font-weight: bolder;
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
+}
+.home img{
+    width: 500px;
 }
 @keyframes left-and-right{
     0%, 100% {
