@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/front-view-cyber-monday-shopping-cart-with-bags-copy-space.jpg);
+    background-repeat: none;
+}
+.head{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 45%;
+    margin-left: 20%;
+    height: 100px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 12px;
+    animation: left-and-right 3s linear infinite;
+    position: relative;
+}
+.home h1{
+    color: #FDF7FF;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes left-and-right{
+    0%, 100% {
+        top: 0;
+    }
+    50%{
+        top: 50px;
+    }
+}
+@media (max-width:767px){
+    .home{
+        background-position: 50%;
+    }
+    .home img {
+        width: 100%;
+    }
+    .head{
+        width: 95%;
+        margin-left: 1%;
+    }
+    .head h1{
+        font-size: 25px;
+    }
+}
